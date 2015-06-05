@@ -26,7 +26,7 @@ h6 {
 }
 
 .lead {
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 400;
 }
 
@@ -36,6 +36,16 @@ h6 {
     text-align: center;
     color: #f8f8f8;
     background: url(../img/solarFarm.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.business-header {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    height:400px;
+    color: #f8f8f8;
+    background: url(../img/panoFarm.jpg) no-repeat center center;
     background-size: cover;
 }
 
@@ -167,4 +177,22 @@ footer {
 
 p.copyright {
     margin: 15px 0 0;
+}
+
+
+.circular {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+.charlie {
+     background: url("../img/charlie.jpg") no-repeat;
+}
+
+.jacob {
+     background: url("../img/JJbeach.jpg") no-repeat;
 }
